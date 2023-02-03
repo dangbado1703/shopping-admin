@@ -1,0 +1,11 @@
+:root {
+  --color-search: #87d068;
+  --color-delete: #ff4d4f;
+  font-size: 62.5%;
+}
+@mixin display-flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
